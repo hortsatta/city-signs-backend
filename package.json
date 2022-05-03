@@ -1,0 +1,34 @@
+{
+  "name": "city-signs-backend",
+  "private": true,
+  "version": "0.1.0",
+  "description": "citysignsph.com strapi backend",
+  "author": {
+    "name": "City Signs"
+  },
+  "strapi": {
+    "uuid": "e703ce16-29d2-4620-b778-ee7008e8b8e0"
+  },
+  "engines": {
+    "node": ">=12.x.x <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT",
+  "scripts": {
+    "dev": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "build:win": "cross-env NODE_ENV=production yarn build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi/plugin-graphql": "^4.1.9",
+    "@strapi/plugin-i18n": "4.1.9",
+    "@strapi/plugin-users-permissions": "4.1.9",
+    "@strapi/provider-upload-cloudinary": "^4.1.9",
+    "@strapi/strapi": "4.1.9",
+    "cross-env": "^7.0.3",
+    "pg": "8.6.0"
+  }
+}
