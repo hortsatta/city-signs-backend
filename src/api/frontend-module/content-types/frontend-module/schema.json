@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "frontend_modules",
+  "info": {
+    "singularName": "frontend-module",
+    "pluralName": "frontend-modules",
+    "displayName": "Frontend Modules"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "modules": {
+      "type": "json"
+    }
+  }
+}
