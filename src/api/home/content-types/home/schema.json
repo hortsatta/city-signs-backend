@@ -32,12 +32,12 @@
       "type": "text",
       "maxLength": 200
     },
-    "ourContactsHeader": {
+    "contactUsHeader": {
       "type": "string",
       "maxLength": 64
     },
-    "ourContactsMessage": {
-      "type": "string",
+    "contactUsMessage": {
+      "type": "text",
       "maxLength": 200
     }
   }
