@@ -20,7 +20,7 @@
       "type": "string",
       "maxLength": 64
     },
-    "ourServiceMessage": {
+    "ourServicesMessage": {
       "type": "text",
       "maxLength": 200
     },
