@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_pages",
+  "info": {
+    "singularName": "about-page",
+    "pluralName": "about-pages",
+    "displayName": "About Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content": {
+      "type": "richtext"
+    },
+    "ourFactoryContent": {
+      "type": "richtext"
+    },
+    "ourEquipmentContent": {
+      "type": "richtext"
+    }
+  }
+}
